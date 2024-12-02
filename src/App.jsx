@@ -1,12 +1,17 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import PlayerData from "./PlayersData";
 import "./App.css";
+import PlayerList from "./components/PlayerList";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  const [players, setPlayers] = useState(PlayerData);
+  return (
+    <>
+      <section>
+        <PlayerList playersData={players} />
+      </section>
+    </>
+  );
 }
 
 export default App;

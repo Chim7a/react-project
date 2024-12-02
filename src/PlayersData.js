@@ -1,7 +1,8 @@
 // players.js
 
-const Players = [
+const PlayerData = [
   {
+    id: 1,
     name: "Cristiano Ronaldo",
     team: "Manchester United",
     nationality: "Portuguese",
@@ -11,6 +12,7 @@ const Players = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cristiano_Ronaldo_2018.jpg/800px-Cristiano_Ronaldo_2018.jpg",
   },
   {
+    id: 2,
     name: "Lionel Messi",
     team: "Barcelona",
     nationality: "Argentinian",
@@ -20,6 +22,7 @@ const Players = [
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/Lionel_Messi_2018.jpg",
   },
   {
+    id: 3,
     name: "Wayne Rooney",
     team: "Manchester United",
     nationality: "English",
@@ -29,6 +32,7 @@ const Players = [
       "https://upload.wikimedia.org/wikipedia/commons/a/af/Wayne_Rooney_2014.jpg",
   },
   {
+    id: 4,
     name: "Kaka",
     team: "AC Milan",
     nationality: "Brazilian",
@@ -40,4 +44,4 @@ const Players = [
 ];
 
 // Exporting the players array to be used in other parts of the application
-export default Players;
+export default PlayerData;
