@@ -7,7 +7,7 @@ function App() {
   const [players, setPlayers] = useState(PlayerData);
   return (
     <>
-      <section>
+      <section className="h-[100dvh] flex justify-center items-center">
         <PlayerList playersData={players} />
       </section>
     </>

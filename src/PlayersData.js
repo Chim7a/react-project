@@ -9,7 +9,7 @@ const PlayerData = [
     jerseyNumber: 7,
     age: 23, // In 2008
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cristiano_Ronaldo_2018.jpg/800px-Cristiano_Ronaldo_2018.jpg",
+      "https://i.pinimg.com/736x/db/96/af/db96afe377939fadf3d10926f896d4e9.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const PlayerData = [
     jerseyNumber: 10,
     age: 21, // In 2008
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/a/a7/Lionel_Messi_2018.jpg",
+      "https://w0.peakpx.com/wallpaper/50/424/HD-wallpaper-lionel-messi-barca-barcelona-messi.jpg",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const PlayerData = [
     jerseyNumber: 10,
     age: 22, // In 2008
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/a/af/Wayne_Rooney_2014.jpg",
+      "https://www.itl.cat/pngfile/big/182-1825396_rooney-wayne-rooney-manchester-united.jpg",
   },
   {
     id: 4,
@@ -38,8 +38,7 @@ const PlayerData = [
     nationality: "Brazilian",
     jerseyNumber: 22,
     age: 26, // In 2008
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kak%C3%A1_2013.jpg/800px-Kak%C3%A1_2013.jpg",
+    imageUrl: "https://wallpapercave.com/wp/wp8728139.jpg",
   },
 ];
 

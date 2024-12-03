@@ -2,22 +2,30 @@ import React from "react";
 import { Card } from "antd";
 const { Meta } = Card;
 
-function Player(props) {
+function Player({ nameProp, team, image, nationality, jerseyNumber, age }) {
   return (
     <div>
       <Card
         hoverable
-        style={{
-          width: 240,
-        }}
         cover={
           <img
             alt="example"
-            src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            className="w-[100px] h-[500px] object-cover"
+            src={image}
           />
         }
       >
-        <Meta title={props.nameProp} description={props.team} />
+        <Meta
+          title={nameProp}
+          description={
+            <div>
+              <h3>Club Team: {team}</h3>
+              <p>Nationality: {nationality}</p>
+              <p>Jersey Number: {jerseyNumber}</p>
+              <p>Age: {age}</p>
+            </div>
+          }
+        />
       </Card>
     </div>
   );
